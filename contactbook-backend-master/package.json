@@ -1,0 +1,32 @@
+{
+  "name": "hellonodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SideWay0101H/contactbook-backend.git"
+  },
+  "keywords": [
+    "contactbook",
+    "backend",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SideWay0101H/contactbook-backend/issues"
+  },
+  "homepage": "https://github.com/SideWay0101H/contactbook-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
